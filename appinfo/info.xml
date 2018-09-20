@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<info>
+    <id>blendmaxmayaplugingui</id>
+    <name>BlendMaxMayaPluginGui</name>
+    <description>Plugin Adicional para visualizar los trabajos en proceso de render y finalizados</description>
+    <licence>AGPL</licence>
+    <author>Kimberly Muñoz , Jean Paul Valle</author>
+    <version>0.0.1</version>
+    <namespace>BlendMaxMayaPluginGui</namespace>
+    <category>other</category>
+    <dependencies>
+        <owncloud min-version="9.0" />
+    </dependencies>
+</info>
