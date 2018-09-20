@@ -1,1 +1,1 @@
-# 3dmaxplugin-renderedcom
+#blendmaxmayaplugingui-renderedcom
