@@ -303,7 +303,7 @@
 						jobsArray.push('<div class="row panel panel-default"><div class=" progress-icon"><img class="icon" src="/apps/blendmaxmayaplugingui/img/'+logo+'"></img></div><div class=" progress-card-body panel-body"><div class="panel body-head"><h4>'+completeData.jobs[i].name+'</h4><a id_job="'+completeData.jobs[i].id+'" host_name="'+ completeData.jobs[i].host_name +'" href="#" class="pausarRender"><img width="35px" src="/apps/blendmaxmayaplugingui/img/pause.png"></img></a><a id_job="'+completeData.jobs[i].id+'" host_name="'+ completeData.jobs[i].host_name +'" href="#" class="borrarRenderFinalizado"><img width="25px" src="/apps/blendmaxmayaplugingui/img/delete.png"></a></div><div class="panel body-info"><div class="panel row-info"><p class="info-label">Fecha: </p><p class="info-text">'+date+'</p></div><div class="progress"><div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 1%;"> 1% </div></div></div></div></div>');
 
 					}
-				}else if((completeData.jobs[i].state === " RDY OFF" && completeData.jobs[i].user_name === $('#userNameFront').text().toLowerCase())){
+				}else if((completeData.jobs[i].state === " RDY OFF" && completeData.jobs[i].user_name === $('#userNameFront').text().toLowerCase()) || (completeData.jobs[i].state === " RDY RUN OFF" && completeData.jobs[i].user_name === $('#userNameFront').text().toLowerCase())){
                     //alert("hola");
                     listnum+=1;
                     var utcSeconds = completeData.jobs[i].time_started;
