@@ -5,5 +5,5 @@
 <ul>
 	<li><a id="endJob" href="#">Trabajos Finalizados</a></li>
 	<li><a id="processJob" href="#">Trabajos en Proceso</a></li>
-	<li><a id="render-edcom" href="/owncloud/index.php/apps/blendmaxmayaplugin/">Render BlendMaxMaya</a></li>
+	<li><a id="render-edcom" href="/index.php/apps/blendmaxmayaplugin/">Render BlendMaxMaya</a></li>
 </ul>
